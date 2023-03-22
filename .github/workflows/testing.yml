@@ -37,6 +37,8 @@ jobs:
 
   test:
 
+    steps:
+
     # - name: Run phpstan
     #   run: ./vendor/bin/phpstan --xdebug analyse src tests
 
