@@ -1,4 +1,4 @@
-name: PHP Composer
+name: Testing
 
 on:
   push:
@@ -36,7 +36,7 @@ jobs:
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
     - name: Run phpstan
-      run: ./vendor/bin/phpstan --xdebug analyse
+      run: ./vendor/bin/phpstan --xdebug analyse src tests
 
     - name: Run pint
       run: ./vendor/bin/pint --test -v
