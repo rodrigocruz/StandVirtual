@@ -2,10 +2,6 @@ parameters:
 
 	level: 8
 
-	paths:
-		- src
-		- tests
-
 	scanFiles:
 
 		# Pest handles loading custom helpers only when running tests
