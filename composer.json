@@ -1,17 +1,36 @@
 {
   "name": "rodrigocruz/stand-virtual",
   "description": "Stand Virtual API wrapper",
+  "keywords": [
+    "standvirtual"
+  ],
   "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Rodrigocruz\\StandVirtual\\": "src/"
-    }
-  },
   "authors": [
     {
       "name": "Rodrigo Cruz",
       "email": "labrugice@gmail.com"
     }
   ],
-  "require": {}
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.7",
+    "pestphp/pest": "^2.2",
+    "phpstan/phpstan": "^1.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rodrigocruz\\StandVirtual\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
