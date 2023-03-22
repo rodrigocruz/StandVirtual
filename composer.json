@@ -1,0 +1,15 @@
+{
+    "name": "rodrigocruz/stand-virtual",
+    "autoload": {
+        "psr-4": {
+            "Rodrigocruz\\StandVirtual\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Cruz",
+            "email": "labrugice@gmail.com"
+        }
+    ],
+    "require": {}
+}
