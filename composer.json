@@ -1,15 +1,17 @@
 {
-    "name": "rodrigocruz/stand-virtual",
-    "autoload": {
-        "psr-4": {
-            "Rodrigocruz\\StandVirtual\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Rodrigo Cruz",
-            "email": "labrugice@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "rodrigocruz/stand-virtual",
+  "description": "Stand Virtual API wrapper",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Rodrigocruz\\StandVirtual\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rodrigo Cruz",
+      "email": "labrugice@gmail.com"
+    }
+  ],
+  "require": {}
 }
